@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <h1><img src="./imagen/logopasteleria.png" alt="Logo pasteleria" width="50px" height="50px">Pasteleria "El Pastelito"</h1>
+    <h2>Formulario de pedido</h2>
+    <hr>
+    
+    <h2>Formulario de pedido</h2>
+    <form action="/accion.js" id="form1" method="post">
+        <h3>Datos de contacto</h3>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="correo1">Correo</label><br>
+        <input type="email" id="correo1" name="correo1"><br>
+
+        <label for="tel1">Teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br>
+
+        <h3>Elegir sabor o sabores de pastel</h3>
+        <input type="checkbox" id="topping1" name="topping1" value="Chocolate">
+        <label for="topping1">Chocolate</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Vainilla">
+        <label for="topping2">Vainilla</label><br>
+        <input type="checkbox" id="topping3" name="topping3" value="Nuez">
+        <label for="topping3">Nuez</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Elote">
+        <label for="topping2">Elote</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Zanahoria">
+        <label for="topping2">Zanahoria</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Queso">
+        <label for="topping2">Queso</label><br>
+
+        <h3>Elegir decoraciones</h3>
+        <input type="checkbox" id="topping1" name="topping1" value="Chantilly">
+        <label for="topping1">Chantully</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Betun">
+        <label for="topping2">Betun</label><br>
+        <input type="checkbox" id="topping3" name="topping3" value="Fondant">
+        <label for="topping3">Fondant</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Frutas">
+        <label for="topping2">Frutas</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Chocolate">
+        <label for="topping2">Chocolate</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Impresión papel comestible">
+        <label for="topping2">Impresión papel comestible</label><br>
+        
+        <hr>
+
+        <h3>Fecha de entrega</h3>
+        <input type="datetime-local" id="fecha2" name="fecha2"><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
